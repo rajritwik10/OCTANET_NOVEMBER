@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritwik Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Roboto+Slab&display=swap"
+    rel="stylesheet">
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<style>
+    /* CSS RESET */
+    body {
+        font-family: 'Catamaran', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('4733848.jpg');
+        /* width: 300px;
+        height: 200px; */
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 50px;
+        top: 20px;
+        text-align: center;
+
+
+
+    }
+
+    .left div {
+        text-align: center;
+        color: rgb(18, 219, 145);
+        line-height: 20px;
+        font-size: 22px;
+    }
+
+    .left img {
+        width: 120px;
+        filter: invert(100%);
+    }
+
+    .center {
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 28px;
+        top: 9px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: white;
+        font-size: 24px;
+    }
+
+    .navbar li a {
+        color: bisque;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(14, 177, 227);
+
+    }
+
+    .navbar li a.active {
+        color: blueviolet;
+
+    }
+
+    .btn {
+        font-family: 'Catamaran', sans-serif;
+        margin: auto;
+        padding: 4px 14px;
+        /* background-color: white; */
+        color: black;
+        border: 2px solid rgb(191, 10, 10);
+        border-radius: 8px;
+        font-size: 18px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: aqua;
+
+    }
+
+    .container {
+        /* border: 2px solid yellow; */
+        margin: 159px 16px;
+        padding: 23px;
+        width: 33%;
+        border-radius: 35px;
+
+    }
+
+    .form-group input {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        display: inline-block;
+        width: 366px;
+        padding: 7px;
+        border: 7px solid rgb(154, 89, 89);
+        margin: 3px auto;
+        font-size: 15px;
+        border-radius: 13px;
+        color: black;
+    }
+
+    .container button {
+        display: inline-block;
+        width: 94px;
+        background-color: blanchedalmond;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- div.left -->
+        <!-- left box for Logo -->
+        <div class="left">
+            <img src="https://assets.leetcode.com/users/leetcode/avatar_1568224780.png" alt="">
+            <div>Ritwik Fitness Camp</div>
+
+        </div>
+
+        <div class="center">
+            <!-- mid box for navigation -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+
+        <!--  right box for buttons-->
+
+        <div class="right">
+
+            <button class="btn">Call Us Now</button>
+            
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h1>To Join The Best Gym of Bihar Register Here</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <!-- input:text -->
+                <input type="text" name="" placeholder="Enter Your Name">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Pincode">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Email Id">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Phone number">
+
+            </div>
+            <!-- button.btn -->
+            <button class="btn">Submit</button>
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
