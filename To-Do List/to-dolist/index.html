@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="list">
+        <div class="container">
+            <div id="heading">
+                <h1><span> To-Do </span>List</h1>
+            </div>
+            <div id="wrapper">
+                <input type="text" placeholder="Enter a new task ">
+                <button id="add-btn">Add</button>
+            </div>
+
+            <div id="tasks">
+                <p id="tasks-list">
+                    You have <span class="count-value">0</span> task(s) to complete.
+                </p>
+            </div>
+
+            <div>
+                <p id="error">Please include a task!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
